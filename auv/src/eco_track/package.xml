@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>eco_track</name>
+  <version>0.0.1</version>
+  <description>The eco_track package: Target tracking with ECO tracker and cmd_vel control</description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- 依赖包 -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- 构建时依赖 -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+
+  <!-- 运行时依赖 -->
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+
+  <!-- OpenCV依赖 -->
+  <build_export_depend>opencv</build_export_depend>
+  <exec_depend>opencv</exec_depend>
+
+  <export>
+    <!-- 这里可以添加额外的导出配置 -->
+  </export>
+</package>
+

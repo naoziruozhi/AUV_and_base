@@ -1,0 +1,8 @@
+prefix=/mnt/ros1/devel
+
+Name: yolo
+Description: Description of yolo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

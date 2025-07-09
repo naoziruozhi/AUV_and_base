@@ -1,0 +1,7 @@
+<launch>
+  <node name="mav_control_node" pkg="mav_control" type="mav_node.py" output="screen">
+    <param name="user_heartbeat_timeout" value="2.0"/>
+    <param name="cmd_vel_timeout" value="1.5"/>
+  </node>
+</launch>
+

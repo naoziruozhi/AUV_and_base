@@ -1,0 +1,3 @@
+<launch>
+  <node name="eco_tracker" pkg="eco_track" type="eco_tracker_node" output="screen" />
+</launch>
